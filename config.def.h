@@ -57,7 +57,9 @@ static const struct xkb_rule_names xkb_rules = {
 	/* example:
 	.options = "ctrl:nocaps",
 	*/
-	.options = NULL,
+	.layout  = "us",
+	.variant = "altgr-intl",
+	.options = "caps:swapescape",
 };
 
 static const int repeat_rate = 35;
